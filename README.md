@@ -40,6 +40,12 @@ Status legend:
 
 >You need [Python3](https://www.python.org/) to use the automation scripts for project setup and build.
 
+### Docker (Ubuntu)
+
+```commandline
+docker build . --tag cpp_cv_project:latest
+```
+
 ### Linux
 
 ```bash

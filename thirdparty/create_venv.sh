@@ -6,5 +6,7 @@
 
 python3 -m venv python_venv
 source python_venv/bin/activate
+pip3 install --upgrade pip
+pip3 install numpy
 pip3 install -r ./requirements.txt
 deactivate
